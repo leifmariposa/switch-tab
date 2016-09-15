@@ -1,7 +1,7 @@
 {
   "name": "switch-tab",
   "main": "./lib/switch-tab",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A plugin for Atom to quickly change tab using a dialog with a filter text box.",
   "repository": "https://github.com/leifmariposa/switch-tab",
   "license": "MIT",
