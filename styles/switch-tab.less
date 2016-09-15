@@ -1,0 +1,54 @@
+@import "ui-variables";
+
+// Highlight matched text
+.switch-tab .list-group .character-match {
+    background-color: @background-color-highlight;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.switch-tab {
+    &.select-list ol.list-group {
+//        max-height: 50%;
+        max-height: 624px;
+        border-top: solid 1px @base-border-color;
+        li {
+            display: flex;
+
+            &.selected {
+                border-top: solid 1px transparent;
+                border-bottom: solid 1px transparent;
+            }
+
+            &:not(.selected) {
+                border-top: solid 1px transparent;
+                border-bottom: solid 1px transparent;
+            }
+        }
+
+        .icon {
+            margin: 0 0.5em;
+        }
+
+        .primary-line {
+            float: left;
+            width: 33%;
+            color: @text-color-highlight;
+
+            &.modified {
+                &::before {
+                    margin-right: 0.2em;
+                    font-weight: bold;
+                    color: #0098ff;
+                    content: '\26ac';
+                }
+            }
+        }
+
+        .secondary-line {
+            color: @text-color-highlight !important;
+        }
+    }
+    font-family: Consolas;
+    font-size: 14px;
+}

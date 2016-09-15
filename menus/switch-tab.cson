@@ -1,0 +1,6 @@
+'menu': [
+  'label': 'Find'
+  'submenu': [
+    { 'label': 'Switch Tab', 'command': 'switch-tab:toggle-switch-tab' }
+  ]
+]

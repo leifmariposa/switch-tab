@@ -1,0 +1,5 @@
+"atom-workspace":
+  "shift-alt-o": "switch-tab:toggle-switch-tab"
+
+".switch-tab":
+  "ctrl-w": "switch-tab:close"
